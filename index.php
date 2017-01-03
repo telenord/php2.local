@@ -3,5 +3,5 @@
  require __DIR__ . '/autoload.php';
 
  $db = new \App\Db();
- $data = $db->query('SELECT * FROM news2');
+  $users = findAll();
  var_dump($data);
